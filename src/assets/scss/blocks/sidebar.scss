@@ -2,8 +2,29 @@
     position: fixed;
     width: 300px;
     height: 100vh;
-    background-color: #fff;
+    background-color: $primary;
+    box-shadow: 5px 0 25px rgba(#050505, .1);
     top: 0;
     left: 0;
     z-index: 3;
+    
+    &__header {
+        background-color: $secondary;
+        height: 180px;
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: hover;
+        }
+    }
+    &__content {
+        padding: 0 2rem 0 2rem;
+        margin-bottom: 3rem;
+    }
+    &__footer {
+        display: flex;
+        justify-content: center;
+    }
 }
+
