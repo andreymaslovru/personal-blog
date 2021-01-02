@@ -369,7 +369,8 @@ body {
       object-fit: hover; }
   .sidebar__content {
     padding: 0 2rem 0 2rem;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    margin-top: -5rem; }
   .sidebar__footer {
     display: flex;
     justify-content: center; }
@@ -390,6 +391,7 @@ body {
   align-items: center; }
   .profile__avatar {
     display: block;
+    position: relative;
     width: 100px;
     height: 100px;
     border: 2px solid #FFFFFF;
