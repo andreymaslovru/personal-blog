@@ -4,6 +4,8 @@
     grid-column-gap: 15px;
     grid-template-rows: 195px;
 
+    margin-bottom: 3rem;
+
     &__item {
         border-radius: 5px;
         overflow: hidden;
@@ -13,6 +15,7 @@
         box-shadow: 0 5px 15px rgba(#000, .2);
 
         cursor: pointer;
+
 
         &:after {
             content: "";
