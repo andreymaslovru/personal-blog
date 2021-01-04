@@ -774,3 +774,19 @@ body {
     .pagination-link.active {
       background-color: #104BE3;
       box-shadow: 0 0 10px rgba(16, 75, 227, 0.15); }
+
+.title-page {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 21px;
+  color: #fff;
+  margin-bottom: 3rem; }
+
+.image-page {
+  margin-bottom: 3rem; }
+
+.information-page {
+  font-size: 1.4rem;
+  line-height: 21px; }

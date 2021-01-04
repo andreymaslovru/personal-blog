@@ -19,6 +19,8 @@ body {
     box-sizing: border-box;
 }
 
+
+
 @import 'blocks/page.scss';
 @import 'blocks/header.scss';
 @import 'blocks/sidebar.scss';
@@ -35,3 +37,4 @@ body {
 @import 'blocks/post.scss';
 @import 'blocks/embed.scss';
 @import 'blocks/pagination.scss';
+@import 'blocks/other_page.scss';
